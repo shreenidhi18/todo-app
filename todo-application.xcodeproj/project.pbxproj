@@ -13,6 +13,9 @@
 		A0847F8E2AE8218E00201C68 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0847F8D2AE8218E00201C68 /* Preview Assets.xcassets */; };
 		A0847F902AE8218E00201C68 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0847F8F2AE8218E00201C68 /* Persistence.swift */; };
 		A0847F932AE8218E00201C68 /* todo_application.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A0847F912AE8218E00201C68 /* todo_application.xcdatamodeld */; };
+		A0FD08852AE859F300DBACEA /* BackgroundGradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0FD08842AE859F300DBACEA /* BackgroundGradient.swift */; };
+		A0FD08872AE868AF00DBACEA /* NewItemTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0FD08862AE868AF00DBACEA /* NewItemTaskView.swift */; };
+		A0FD08892AE8729000DBACEA /* BlankView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0FD08882AE8729000DBACEA /* BlankView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +26,9 @@
 		A0847F8D2AE8218E00201C68 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A0847F8F2AE8218E00201C68 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		A0847F922AE8218E00201C68 /* todo_application.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = todo_application.xcdatamodel; sourceTree = "<group>"; };
+		A0FD08842AE859F300DBACEA /* BackgroundGradient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundGradient.swift; sourceTree = "<group>"; };
+		A0FD08862AE868AF00DBACEA /* NewItemTaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewItemTaskView.swift; sourceTree = "<group>"; };
+		A0FD08882AE8729000DBACEA /* BlankView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlankView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +61,11 @@
 		A0847F852AE8218C00201C68 /* todo-application */ = {
 			isa = PBXGroup;
 			children = (
+				A0FD08832AE859DC00DBACEA /* Constants */,
 				A0847F862AE8218C00201C68 /* todo_applicationApp.swift */,
-				A0847F882AE8218C00201C68 /* ContentView.swift */,
+				A0FD087F2AE84C5B00DBACEA /* Views */,
 				A0847F8A2AE8218E00201C68 /* Assets.xcassets */,
-				A0847F8F2AE8218E00201C68 /* Persistence.swift */,
-				A0847F912AE8218E00201C68 /* todo_application.xcdatamodeld */,
+				A0FD08802AE84C6400DBACEA /* Model */,
 				A0847F8C2AE8218E00201C68 /* Preview Content */,
 			);
 			path = "todo-application";
@@ -71,6 +77,33 @@
 				A0847F8D2AE8218E00201C68 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A0FD087F2AE84C5B00DBACEA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A0847F882AE8218C00201C68 /* ContentView.swift */,
+				A0FD08862AE868AF00DBACEA /* NewItemTaskView.swift */,
+				A0FD08882AE8729000DBACEA /* BlankView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A0FD08802AE84C6400DBACEA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A0847F8F2AE8218E00201C68 /* Persistence.swift */,
+				A0847F912AE8218E00201C68 /* todo_application.xcdatamodeld */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A0FD08832AE859DC00DBACEA /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				A0FD08842AE859F300DBACEA /* BackgroundGradient.swift */,
+			);
+			path = Constants;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,6 +180,9 @@
 				A0847F892AE8218C00201C68 /* ContentView.swift in Sources */,
 				A0847F932AE8218E00201C68 /* todo_application.xcdatamodeld in Sources */,
 				A0847F872AE8218C00201C68 /* todo_applicationApp.swift in Sources */,
+				A0FD08852AE859F300DBACEA /* BackgroundGradient.swift in Sources */,
+				A0FD08872AE868AF00DBACEA /* NewItemTaskView.swift in Sources */,
+				A0FD08892AE8729000DBACEA /* BlankView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
